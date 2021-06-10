@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Nasza pierwsza strona we flasku</title>
+<!--    <likn rel="styleshhet" type="text/css href=="{{ url_for('static, filename='ksiaz.css')  }}-->
+</head>
+<body>
+<div id="menu">
+    <ul>
+    <li><a href="{{url_for('hello')}}">Main page</a>
+    <li><a href="{{url_for('hello_Universe',name='World')}}">Second page</a>
+    <li><a href="">Contact</a>
+    </ul>
+</div>
+<div id="main">
+{% block content %}
+{% endblock %}
+</div>
+</body>
+</html>

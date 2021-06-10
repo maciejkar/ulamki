@@ -1,0 +1,71 @@
+body{
+	background: url("Graphics/dziewuszki.gif") fixed;
+	font: 18px magenta;
+	font-family: sans-serif;
+  padding: 0.2em;
+	border: none;
+}
+
+div#menu{
+	position: fixed;
+	right: 0.2em;
+	top: 2em;
+	width: 200px;
+	font-size: 16px; 
+	text-align: left; 
+	font-weight: bold;
+	text-decoration: none; 
+	color:rgb(0,0,128);
+}
+
+div#menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+div#menu ul li {
+	text-align: left;
+	padding: 0.5em 0.5em;
+/*	border-bottom: 1px solid #484870; */
+}
+
+div#menu li ul li {
+	display: none;
+}
+
+div#main{
+	position: absolute;
+	left: 0.5em;
+	top: 0em;
+	right: 200px;
+	border: none;
+	padding: 0.5em;
+}
+
+H1{
+  font-size: 26pt;
+  margin: 0.5em 0.1em;
+  text-align:center;
+  padding: 0.0em;
+  color:magenta;
+  page-break-before:auto;
+}
+
+p{font-size: 14px; 
+  /*color: rgb(0,0,72);*/
+}
+
+
+A{text-decoration: none; color:rgb(0,0,128);}
+A:link    {}
+A:visited {}
+A:hover   {text-decoration: underline}
+
+A#menu{
+	font-size: 16px; 
+	text-align: center; 
+	font-weight: bold;
+}
+
+div#main ol{font-size: 14pt;}
